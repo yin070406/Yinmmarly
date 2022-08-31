@@ -1,0 +1,154 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(../images/rickroll.png);
+}
+
+a{
+    text-decoration:none;
+}
+
+.header{
+    background-color: black;
+    height: 65px;
+    top: 0px;
+    position: fixed;
+    width: 101%;
+    left: -10px;
+    text-align: center;
+}
+
+.hkflags{
+    width: 40;
+    height: 40;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.peter{
+    color: white;
+    font-size: larger;
+}
+
+.joinus{
+    color: white;
+    font-size: large;
+}
+
+.header > .hk, .peter, .joinus, .header > img{
+    display: inline;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.yin > img{
+    width: 50;
+    height: 50;
+    border-radius: 48px;
+    border: 1px solid #000000;
+    box-shadow: rgb(199,36,177) 0px 2px 8px 0px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.login > a{
+    font-size: larger;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 1350px;
+    font-weight: 600;
+}
+
+.mid{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 270px;
+    position: relative;
+    line-height: 50px;
+    font-family: Inter, sans-serif;
+    margin-top: 135px;
+}
+
+.supmid{
+    margin-left: 270px;
+    font-size: x-large;
+    margin-top: 35px;
+    font-weight: 450;
+}
+
+button{
+    background-color: #1CB0F6;
+    border: none;
+}
+
+.button{
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 15%;
+    margin-left: 270px;
+}
+
+.button:after{
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button:main,
+.button:focus{
+    user-select: auto;
+}
+
+.button:hover:not(:disabled){
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button:disabled{
+    cursor: auto;
+}
+
+.socialcredit > img{
+    position: relative;
+    margin-left: 900px;
+    margin-top: -390px;
+    width: 400;
+    height: 400;
+}
